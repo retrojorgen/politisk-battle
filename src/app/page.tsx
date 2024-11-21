@@ -139,11 +139,11 @@ export default function Home() {
                   className={`${
                     message.role === 'computer'
                       ? 'bg-slate-200 text-slate-800'
-                      : 'text-white'
+                      : ''
                   } ${
                     message.role === 'user'
                       ? 'bg-red-900 text-slate-100'
-                      : 'text-white'
+                      : ''
                   }
                   ${
                     message.role === 'computer'
