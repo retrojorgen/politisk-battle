@@ -21,7 +21,7 @@ export default function Home() {
       name: 'Marie Sneve Martinussen',
       date: new Date(),
       content:
-        'Hei! Jeg er Marie Sneve Martinussen leder i Rødt. Send meg en melding hvis lurer på noe om Rødt eller politikk generelt.',
+        'Hei! Jeg er Marie Sneve Martinussen, leder i Rødt. Send meg en melding hvis lurer på noe om Rødt eller politikk generelt.',
     } as Message,
   ] as Message[]);
   const [rightMessages, setRightMessages] = useState([
@@ -30,7 +30,7 @@ export default function Home() {
       name: 'Sylvi Listhaug',
       date: new Date(),
       content:
-        'Hei! Jeg er Sylvi Listhaug leder i Fremskrittspartiet. Send meg en melding hvis lurer på noe om FrP eller politikk generelt.',
+        'Hei! Jeg er Sylvi Listhaug, leder i Fremskrittspartiet. Send meg en melding hvis lurer på noe om FrP eller politikk generelt.',
     } as Message,
   ] as Message[]);
   const [message, setMessage] = useState('');
