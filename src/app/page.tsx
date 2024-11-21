@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import rightImage from '../images/right.png';
 import leftImage from '../images/left.png';
-import SMSBattleLogoImage from '../images/SMSBattle.png';
+import SMSBattleLogoImage from '../images/smsbattle.png';
 
 type Message = {
   role: string;
