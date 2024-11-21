@@ -87,6 +87,7 @@ export default function Home() {
         content: message,
       },
     ]);
+
     handleLeftMessage();
     handleRightMessage();
   };
@@ -124,7 +125,7 @@ export default function Home() {
             />
           </div>
           <div className="relative w-4/6 flex align-bottom items-end p-8 flex-col gap-4 justify-end overflow-auto">
-            {leftMessages.reverse().map((message, index) => (
+            {leftMessages.map((message, index) => (
               <div
                 className={`container flex flex-col w-full ${
                   message.role === 'computer'
@@ -175,7 +176,7 @@ export default function Home() {
             transition={{ delay: 0.5 }}
           />
           <div className="relative w-4/6 flex align-bottom items-start p-8 flex-col gap-4 justify-start overflow-auto">
-            {rightMessages.reverse().map((message, index) => (
+            {rightMessages.map((message, index) => (
               <div
                 className={`container flex flex-col w-full ${
                   message.role === 'computer'
